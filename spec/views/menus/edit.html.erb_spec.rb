@@ -4,7 +4,7 @@ RSpec.describe "menus/edit", type: :view do
   before(:each) do
     @menu = assign(:menu, Menu.create!(
       name: "MyString",
-      harga: "MyString"
+      harga: 1.5
     ))
   end
 
